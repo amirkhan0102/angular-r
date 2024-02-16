@@ -13,6 +13,9 @@ import { FlightsComponent } from './flights/flights.component';
 import { BookingsComponent } from './bookings/bookings.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CommonModule } from '@angular/common';
+import { LoginComponent } from './login/login.component';
+import { MainComponent } from './main/main.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { CommonModule } from '@angular/common';
     FlightsComponent,
     BookingsComponent,
     PageNotFoundComponent,
+    LoginComponent,
+    MainComponent,
+    RegisterComponent,
 
   ],
   imports: [
